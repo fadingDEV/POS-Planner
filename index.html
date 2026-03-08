@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>POS Planner | Blacktail Tools</title>
+    <link rel="icon" type="image/png" href="./public/img/logo.png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="scene-grid"></div>
+    <main class="dashboard">
+      <section class="status-banner">
+        <div class="brand">
+          <img class="brand-mark" src="./public/img/logo.png" alt="POS Planner logo" />
+          <div>
+            <h1>POS Planner</h1>
+            <p>EVE Online control tower planner</p>
+          </div>
+        </div>
+        <div class="status-banner__side">
+          <div class="actions header-actions">
+            <a class="btn" href="https://blacktailtools.space/" target="_blank" rel="noreferrer">Blacktail Tools</a>
+            <a class="btn" href="https://www.eveonline.com/signup?invc=b558b66f-b89e-4f14-a2a3-ae4f64510d85" target="_blank" rel="noreferrer">Get 1m SP</a>
+            <a class="btn" href="https://store.markeedragon.com/affiliate.php?id=1191&redirect=index.php?cat=4" target="_blank" rel="noreferrer">EVE Game Codes</a>
+            <a class="btn" href="https://discord.gg/6tuWzarK74" target="_blank" rel="noreferrer">Support</a>
+          </div>
+          <div class="session-pill">
+            <span class="pulse" aria-hidden="true"></span>
+            <span>Services Online</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="hero-content">
+        <article class="panel hero">
+          <div class="fit-profile-layout">
+            <div class="fit-profile-main">
+              <h2>Fit Profile</h2>
+              <label class="field" for="fit-name">
+                <span>Fit name</span>
+                <input id="fit-name" type="text" value="My Control Tower Fit" />
+              </label>
+              <label class="field" for="tower-select">
+                <span>Control tower</span>
+                <select id="tower-select"></select>
+              </label>
+              <label class="field" for="sov-bonus">
+                <span>Sovereignty bonus</span>
+                <select id="sov-bonus">
+                  <option value="none">No Sovereignty</option>
+                  <option value="alliance">Sovereignty Bonus</option>
+                </select>
+              </label>
+            </div>
+            <div class="fit-profile-share">
+              <h3>Fit Share Text</h3>
+              <textarea id="fit-output" rows="10" readonly></textarea>
+            </div>
+          </div>
+        </article>
+        <article class="panel hero">
+          <div class="identity identity-logos">
+            <div class="stats-grid">
+              <div class="stat">
+                <dt>Current Tower</dt>
+                <dd id="tower-meta">Select a tower</dd>
+              </div>
+              <div class="stat">
+                <dt>Resources Used</dt>
+                <dd id="resource-meta">Powergrid 0  |  0 MW  |  0.0%
+CPU 0  |  0 TF  |  0.0%</dd>
+              </div>
+              <div class="stat">
+                <dt>Fuel / hr</dt>
+                <dd id="fuel-meta">0</dd>
+              </div>
+            </div>
+          </div>
+        </article>
+      </section>
+
+      <section class="panel-row">
+        <article class="panel panel--stat" aria-live="polite">
+          <h3>Defense Snapshot</h3>
+          <dl class="metric-grid">
+            <div>
+              <dt>Shield EHP</dt>
+              <dd id="shield-ehp">0</dd>
+            </div>
+            <div>
+              <dt>Armor EHP</dt>
+              <dd id="armor-ehp">0</dd>
+            </div>
+            <div>
+              <dt>Hull EHP</dt>
+              <dd id="hull-ehp">0</dd>
+            </div>
+            <div>
+              <dt>Total EHP (balanced)</dt>
+              <dd id="total-ehp">0</dd>
+            </div>
+          </dl>
+          <h4>Resist Snapshot</h4>
+          <dl class="metric-grid metric-grid--stacked">
+            <div>
+              <dt>Shield</dt>
+              <dd id="shield-resist">-</dd>
+            </div>
+            <div>
+              <dt>Armor</dt>
+              <dd id="armor-resist">-</dd>
+            </div>
+            <div>
+              <dt>Hull</dt>
+              <dd id="hull-resist">-</dd>
+            </div>
+            <div>
+              <dt>Fitting Status</dt>
+              <dd id="capacity-warning">Balanced fit</dd>
+            </div>
+          </dl>
+          <h4>Damage Profile</h4>
+          <div id="damage-grid" class="damage-grid"></div>
+        </article>
+
+        <article class="panel">
+          <h3>Module Library</h3>
+          <div id="module-library" class="module-library"></div>
+        </article>
+      </section>
+
+      <section class="panel">
+        <h3>Selected Modules</h3>
+        <ul id="selected-modules" class="selected-list"></ul>
+        <label class="field">
+          <span>Share link</span>
+          <input id="share-url" type="text" readonly />
+        </label>
+      </section>
+
+      <footer class="site-footer" aria-label="Site footer">
+        <p><a href="https://blacktailtools.space/" target="_blank" rel="noreferrer">Blacktail Tools</a> | 2025-2026</p>
+        <div class="site-footer__center site-footer__credit">
+          <img
+            class="site-footer__logo"
+            src="https://images.evetech.net/corporations/98818252/logo?size=128"
+            alt="Blacktail Syndicate logo"
+            loading="lazy"
+          />
+          <p>Created by | <a href="https://zkillboard.com/character/2123030234/" target="_blank" rel="noreferrer">Fading Lotus</a></p>
+          <img
+            class="site-footer__logo"
+            src="https://images.evetech.net/alliances/99007887/logo?size=128"
+            alt="Brotherhood of Spacers logo"
+            loading="lazy"
+          />
+        </div>
+        <p class="site-footer__right">All | <a href="https://support.eveonline.com/hc/en-us/articles/8563917741084-EVE-Online-Content-Creation-Terms-of-Use" target="_blank" rel="noreferrer">EVE Related Materials</a> | are property of | <a href="https://www.ccpgames.com/" target="_blank" rel="noreferrer">CCP Games</a></p>
+      </footer>
+    </main>
+    <script src="./public/data/game-data.js"></script>
+    <script src="./app.js"></script>
+  </body>
+</html>
