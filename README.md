@@ -3,7 +3,7 @@
 ## Release
 
 - Version: `1.0.0`
-- Release Date: `March 8, 2026`
+- Release Date: `March 7, 2026`
 
 ## Site Information
 
