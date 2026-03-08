@@ -1,0 +1,758 @@
+﻿[
+    {
+        "id":  "amarr-large",
+        "name":  "Amarr Large",
+        "faction":  "Amarr",
+        "size":  "Large",
+        "cpu":  5500,
+        "power":  5000000,
+        "baseShieldHp":  40000000,
+        "baseArmorHp":  10000000,
+        "baseHullHp":  8000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "amarr-medium",
+        "name":  "Amarr Medium",
+        "faction":  "Amarr",
+        "size":  "Medium",
+        "cpu":  2750,
+        "power":  2500000,
+        "baseShieldHp":  20000000,
+        "baseArmorHp":  5000000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "amarr-small",
+        "name":  "Amarr Small",
+        "faction":  "Amarr",
+        "size":  "Small",
+        "cpu":  1375,
+        "power":  1250000,
+        "baseShieldHp":  10000000,
+        "baseArmorHp":  2500000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "angel-large",
+        "name":  "Angel Large",
+        "faction":  "Angel",
+        "size":  "Large",
+        "cpu":  6000,
+        "power":  4375000,
+        "baseShieldHp":  49500000,
+        "baseArmorHp":  6600000,
+        "baseHullHp":  6000000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "angel-medium",
+        "name":  "Angel Medium",
+        "faction":  "Angel",
+        "size":  "Medium",
+        "cpu":  3000,
+        "power":  2187500,
+        "baseShieldHp":  24750000,
+        "baseArmorHp":  3300000,
+        "baseHullHp":  3000000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "angel-small",
+        "name":  "Angel Small",
+        "faction":  "Angel",
+        "size":  "Small",
+        "cpu":  1500,
+        "power":  1093750,
+        "baseShieldHp":  12375000,
+        "baseArmorHp":  1650000,
+        "baseHullHp":  1500000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "blood-large",
+        "name":  "Blood Large",
+        "faction":  "Blood",
+        "size":  "Large",
+        "cpu":  5500,
+        "power":  5000000,
+        "baseShieldHp":  44000000,
+        "baseArmorHp":  11000000,
+        "baseHullHp":  8000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "blood-medium",
+        "name":  "Blood Medium",
+        "faction":  "Blood",
+        "size":  "Medium",
+        "cpu":  2750,
+        "power":  2500000,
+        "baseShieldHp":  22000000,
+        "baseArmorHp":  5000000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "blood-small",
+        "name":  "Blood Small",
+        "faction":  "Blood",
+        "size":  "Small",
+        "cpu":  1375,
+        "power":  1250000,
+        "baseShieldHp":  11000000,
+        "baseArmorHp":  2750000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "caldari-large",
+        "name":  "Caldari Large",
+        "faction":  "Caldari",
+        "size":  "Large",
+        "cpu":  7500,
+        "power":  2750000,
+        "baseShieldHp":  50000000,
+        "baseArmorHp":  4000000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "caldari-medium",
+        "name":  "Caldari Medium",
+        "faction":  "Caldari",
+        "size":  "Medium",
+        "cpu":  3750,
+        "power":  1375000,
+        "baseShieldHp":  25000000,
+        "baseArmorHp":  2000000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "caldari-small",
+        "name":  "Caldari Small",
+        "faction":  "Caldari",
+        "size":  "Small",
+        "cpu":  1875,
+        "power":  687500,
+        "baseShieldHp":  12500000,
+        "baseArmorHp":  1000000,
+        "baseHullHp":  1000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "dark-blood-large",
+        "name":  "Dark Blood Large",
+        "faction":  "Dark Blood",
+        "size":  "Large",
+        "cpu":  5500,
+        "power":  5000000,
+        "baseShieldHp":  48000000,
+        "baseArmorHp":  12000000,
+        "baseHullHp":  8000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "dark-blood-medium",
+        "name":  "Dark Blood Medium",
+        "faction":  "Dark Blood",
+        "size":  "Medium",
+        "cpu":  2750,
+        "power":  2500000,
+        "baseShieldHp":  24000000,
+        "baseArmorHp":  6000000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "dark-blood-small",
+        "name":  "Dark Blood Small",
+        "faction":  "Dark Blood",
+        "size":  "Small",
+        "cpu":  1375,
+        "power":  1250000,
+        "baseShieldHp":  12000000,
+        "baseArmorHp":  3000000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "domination-large",
+        "name":  "Domination Large",
+        "faction":  "Domination",
+        "size":  "Large",
+        "cpu":  6000,
+        "power":  4375000,
+        "baseShieldHp":  54000000,
+        "baseArmorHp":  7200000,
+        "baseHullHp":  6000000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "domination-medium",
+        "name":  "Domination Medium",
+        "faction":  "Domination",
+        "size":  "Medium",
+        "cpu":  3000,
+        "power":  2187500,
+        "baseShieldHp":  27000000,
+        "baseArmorHp":  3600000,
+        "baseHullHp":  3000000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "domination-small",
+        "name":  "Domination Small",
+        "faction":  "Domination",
+        "size":  "Small",
+        "cpu":  1500,
+        "power":  1093750,
+        "baseShieldHp":  13500000,
+        "baseArmorHp":  1800000,
+        "baseHullHp":  1500000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "dread-guristas-large",
+        "name":  "Dread Guristas Large",
+        "faction":  "Dread Guristas",
+        "size":  "Large",
+        "cpu":  7500,
+        "power":  2750000,
+        "baseShieldHp":  60000000,
+        "baseArmorHp":  4800000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "dread-guristas-medium",
+        "name":  "Dread Guristas Medium",
+        "faction":  "Dread Guristas",
+        "size":  "Medium",
+        "cpu":  3750,
+        "power":  1375000,
+        "baseShieldHp":  30000000,
+        "baseArmorHp":  2400000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "dread-guristas-small",
+        "name":  "Dread Guristas Small",
+        "faction":  "Dread Guristas",
+        "size":  "Small",
+        "cpu":  1875,
+        "power":  687500,
+        "baseShieldHp":  15000000,
+        "baseArmorHp":  1200000,
+        "baseHullHp":  1000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "gallente-large",
+        "name":  "Gallente Large",
+        "faction":  "Gallente",
+        "size":  "Large",
+        "cpu":  6750,
+        "power":  3750000,
+        "baseShieldHp":  35000000,
+        "baseArmorHp":  8000000,
+        "baseHullHp":  10000000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "gallente-medium",
+        "name":  "Gallente Medium",
+        "faction":  "Gallente",
+        "size":  "Medium",
+        "cpu":  3375,
+        "power":  1875000,
+        "baseShieldHp":  17500000,
+        "baseArmorHp":  4000000,
+        "baseHullHp":  5000000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "gallente-small",
+        "name":  "Gallente Small",
+        "faction":  "Gallente",
+        "size":  "Small",
+        "cpu":  1688,
+        "power":  937500,
+        "baseShieldHp":  8750000,
+        "baseArmorHp":  2000000,
+        "baseHullHp":  2500000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "guristas-large",
+        "name":  "Guristas Large",
+        "faction":  "Guristas",
+        "size":  "Large",
+        "cpu":  7500,
+        "power":  2750000,
+        "baseShieldHp":  55000000,
+        "baseArmorHp":  4400000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "guristas-medium",
+        "name":  "Guristas Medium",
+        "faction":  "Guristas",
+        "size":  "Medium",
+        "cpu":  3750,
+        "power":  1375000,
+        "baseShieldHp":  27500000,
+        "baseArmorHp":  2200000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "guristas-small",
+        "name":  "Guristas Small",
+        "faction":  "Guristas",
+        "size":  "Small",
+        "cpu":  1875,
+        "power":  687500,
+        "baseShieldHp":  13750000,
+        "baseArmorHp":  1100000,
+        "baseHullHp":  1000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.5
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "minmatar-large",
+        "name":  "Minmatar Large",
+        "faction":  "Minmatar",
+        "size":  "Large",
+        "cpu":  6000,
+        "power":  4375000,
+        "baseShieldHp":  45000000,
+        "baseArmorHp":  6000000,
+        "baseHullHp":  6000000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "minmatar-medium",
+        "name":  "Minmatar Medium",
+        "faction":  "Minmatar",
+        "size":  "Medium",
+        "cpu":  3000,
+        "power":  2187500,
+        "baseShieldHp":  22500000,
+        "baseArmorHp":  3000000,
+        "baseHullHp":  3000000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "minmatar-small",
+        "name":  "Minmatar Small",
+        "faction":  "Minmatar",
+        "size":  "Small",
+        "cpu":  1500,
+        "power":  1093750,
+        "baseShieldHp":  11250000,
+        "baseArmorHp":  1500000,
+        "baseHullHp":  1500000,
+        "shieldResist":  {
+                             "kinetic":  0,
+                             "explosive":  0,
+                             "em":  0.5,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "sansha-large",
+        "name":  "Sansha Large",
+        "faction":  "Sansha",
+        "size":  "Large",
+        "cpu":  5500,
+        "power":  5000000,
+        "baseShieldHp":  44000000,
+        "baseArmorHp":  11000000,
+        "baseHullHp":  8000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "sansha-medium",
+        "name":  "Sansha Medium",
+        "faction":  "Sansha",
+        "size":  "Medium",
+        "cpu":  2750,
+        "power":  2500000,
+        "baseShieldHp":  22000000,
+        "baseArmorHp":  5500000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "sansha-small",
+        "name":  "Sansha Small",
+        "faction":  "Sansha",
+        "size":  "Small",
+        "cpu":  1375,
+        "power":  1250000,
+        "baseShieldHp":  11000000,
+        "baseArmorHp":  2750000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "serpentis-large",
+        "name":  "Serpentis Large",
+        "faction":  "Serpentis",
+        "size":  "Large",
+        "cpu":  6750,
+        "power":  3750000,
+        "baseShieldHp":  38500000,
+        "baseArmorHp":  8800000,
+        "baseHullHp":  10000000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "serpentis-medium",
+        "name":  "Serpentis Medium",
+        "faction":  "Serpentis",
+        "size":  "Medium",
+        "cpu":  3375,
+        "power":  1875000,
+        "baseShieldHp":  19250000,
+        "baseArmorHp":  4400000,
+        "baseHullHp":  5000000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "serpentis-small",
+        "name":  "Serpentis Small",
+        "faction":  "Serpentis",
+        "size":  "Small",
+        "cpu":  1688,
+        "power":  937500,
+        "baseShieldHp":  9625000,
+        "baseArmorHp":  2200000,
+        "baseHullHp":  2500000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "shadow-large",
+        "name":  "Shadow Large",
+        "faction":  "Shadow",
+        "size":  "Large",
+        "cpu":  6750,
+        "power":  3750000,
+        "baseShieldHp":  42000000,
+        "baseArmorHp":  9600000,
+        "baseHullHp":  10000000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "shadow-medium",
+        "name":  "Shadow Medium",
+        "faction":  "Shadow",
+        "size":  "Medium",
+        "cpu":  3375,
+        "power":  1875000,
+        "baseShieldHp":  21000000,
+        "baseArmorHp":  4800000,
+        "baseHullHp":  5000000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "shadow-small",
+        "name":  "Shadow Small",
+        "faction":  "Shadow",
+        "size":  "Small",
+        "cpu":  1688,
+        "power":  937500,
+        "baseShieldHp":  10500000,
+        "baseArmorHp":  2500000,
+        "baseHullHp":  2400000,
+        "shieldResist":  {
+                             "kinetic":  0.5,
+                             "explosive":  0,
+                             "em":  0,
+                             "thermal":  0.25
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "true-sansha-large",
+        "name":  "True Sansha Large",
+        "faction":  "True Sansha",
+        "size":  "Large",
+        "cpu":  5500,
+        "power":  5000000,
+        "baseShieldHp":  48000000,
+        "baseArmorHp":  12000000,
+        "baseHullHp":  8000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "true-sansha-medium",
+        "name":  "True Sansha Medium",
+        "faction":  "True Sansha",
+        "size":  "Medium",
+        "cpu":  2750,
+        "power":  2500000,
+        "baseShieldHp":  24000000,
+        "baseArmorHp":  6000000,
+        "baseHullHp":  4000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    },
+    {
+        "id":  "true-sansha-small",
+        "name":  "True Sansha Small",
+        "faction":  "True Sansha",
+        "size":  "Small",
+        "cpu":  1375,
+        "power":  1250000,
+        "baseShieldHp":  12000000,
+        "baseArmorHp":  3000000,
+        "baseHullHp":  2000000,
+        "shieldResist":  {
+                             "kinetic":  0.25,
+                             "explosive":  0.5,
+                             "em":  0,
+                             "thermal":  0
+                         },
+        "fuelPerHour":  0
+    }
+]
